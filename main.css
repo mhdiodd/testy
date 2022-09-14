@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(src/fonts/Ubuntu-Regular.ttf  );
+}
+
+body {
+    font-family: yekan;
+
+    background-color: #FFFFFF;
+}
+
+#img1 {
+    margin-top: -19px;
+    width: 100%;
+    vertical-align: top;
+}
+
+.nav {
+
+    width: 100%;
+    background-color: #eee;
+    padding: 13px;
+    position: fixed;
+    z-index: 10;
+    opacity: 60%;
+
+}
+
+.nav ul {
+    list-style: none;
+}
+
+
+.for-nav {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: large;
+    vertical-align: super;
+}
+
+.main-title {
+    margin: 40px 0px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 1px 3px 3px #333;
+}
+
+.box2 {
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.left-box {
+    width: 45%;
+    height: 400px;
+    margin: 0 3px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.right-box {
+    margin: 0 3px;
+
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    vertical-align: top;
+
+}
+
+.right-box img,
+.left-box img {
+    margin-bottom: 20px;
+}
+
+.model {
+    margin: 13px 0px 10px 0px;
+}
+
+#compare {
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+    padding: 10px;
+
+}
+
+#compare h1 {
+    margin: 40px 0px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 1px 3px 3px #333;
+}
+
+.left-box2 {
+    background-color: #FFFFFF;
+}
+
+.midle-box2 {
+    background-color: #FFFFFF;
+}
+
+.right-box2 {
+    background-color: #FFFFFF;
+}
+
+.left-box2,
+.right-box2,
+.midle-box2 {
+    display: inline-block;
+    background-color: rgb(248, 244, 244);
+    height: 2000px;
+    width: 32%;
+    text-align: center;
+}
+
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(119, 117, 117);
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.circle2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(214, 214, 214);
+    margin: 20px auto;
+    display: inline-block;
+
+
+}
+
+.left-box2 hr,
+.midle-box2 hr,
+.right-box2 hr {
+    width: 85%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #333;
+}
+
+
+.test {
+    margin: 80px 0;
+}
+
+#accessories {
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    
+}
+
+.right-box3 {
+    background-color: #F2F2F2;
+    display: inline-block;
+    margin: 0 5px 0px 5px;
+    vertical-align: top;
+}
+
+.left-box3 {
+    background-color:#F2F2F2;
+    display: inline-block;
+    margin: 0 5px 0px 5px;
+
+}
+
+.right-box3,
+.left-box3 {
+    width: 47%;
+    height: 580px;
+}
+
+.left-box3 h2,
+.right-box3 h2{
+    font-size: 25px;
+    margin: 50px auto;
+}
+.left-box3 h1,
+.right-box3 h1{
+    font-size: 35px;
+   
+}
+
